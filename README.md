@@ -1,6 +1,13 @@
 Install notes
 =========
 
+
+Checkout submodules:
+
+$ git submodule update --init --recursive
+
+
+
 ### 1.
 ```
 $ sudo apt-get install zsh tmux
@@ -16,3 +23,8 @@ $ ln -s ~/dotfiles/.zshrc ~/dotfiles/.tmux.conf ~
 ```
 $ chsh -s /usr/bin/zsh
 ```
+
+
+Install FASD for zsh:
+
+$ git clone https://github.com/clvv/fasd.git ~/fasd && cd ~/fasd && sudo make install
