@@ -30,6 +30,10 @@ Install FASD for zsh:
 $ git clone https://github.com/clvv/fasd.git ~/fasd && cd ~/fasd && sudo make install
 ```
 
+ZSH Autocomplete
+```
+$ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
 
 Powerline Python package:
 ```
@@ -40,3 +44,4 @@ Powerline fonts
 ```
 $ git clone https://github.com/powerline/fonts.git ~/powerline_fonts && ~/powerline_fonts/install.sh
 ```
+
