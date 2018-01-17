@@ -5,7 +5,27 @@ export ZSH=$HOME/dotfiles/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="amuse"
+POWERLEVEL9K_MODE='awesome-fontconfig'
+
+ZSH_THEME="../../zsh-custom/themes/powerlevel9k/powerlevel9k"
+
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="$ "
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
+
+
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_STATUS_VERBOSE=false
+
+POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="yellow"
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
+
+
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -85,3 +105,6 @@ zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+export TERM="xterm-256color" 
