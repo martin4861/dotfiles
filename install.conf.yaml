@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+# null (or ~) value means symlink from file with same name without leading dot
+- link:
+    ~/.dotfiles: ''
+
+    # zsh & terminator
+    ~/.oh-my-zsh: ~
+    ~/.zshrc: ~
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+

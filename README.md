@@ -27,9 +27,22 @@ $ chsh -s /usr/bin/zsh
 $ git clone https://github.com/clvv/fasd.git ~/fasd && cd ~/fasd && sudo make install
 ```
 
-### 6. Powerline Python package and fonts
+### (6. Powerline Python package and fonts
 ```
 $ sudo -H pip3 install powerline-status && sudo -H pip3 install powerline-gitstatus && ln -s ~/dotfiles/config/powerline ~/.config/powerline
 
 $ git clone https://github.com/powerline/fonts.git ~/powerline_fonts && ~/powerline_fonts/install.sh
 ```
+
+
+### 6. Powerline Python package and fonts
+```
+$ git clone https://github.com/gabrielelana/awesome-terminal-fonts.git
+
+$ source ~/awesome-terminal-fonts/build.sh && source ~/awesome-terminal-fonts/install.sh
+```
+
+Restart X11 server
+
+
+Font: Source Code Pro for Powerline Regular, 12
