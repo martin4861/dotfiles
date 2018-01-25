@@ -7,4 +7,6 @@
 [submodule "zsh-custom/themes/powerlevel9k"]
 	path = zsh-custom/themes/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
-
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot.git
