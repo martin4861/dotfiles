@@ -12,6 +12,7 @@
     # zsh & terminator
     ~/.oh-my-zsh: ~
     ~/.zshrc: ~
+    ~/.config/terminator: config/terminator
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
