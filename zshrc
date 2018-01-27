@@ -1,30 +1,17 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/dotfiles/oh-my-zsh
 
+source $HOME/dotfiles/user.cfg
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-POWERLEVEL9K_MODE='awesome-fontconfig'
+
 
 ZSH_THEME="../../zsh-custom/themes/powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="$ "
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
-
-
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-POWERLEVEL9K_STATUS_VERBOSE=false
-
-POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="yellow"
-POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
-
-
+source $HOME/dotfiles/powerlevel9k.cfg
 
 
 # Uncomment the following line to use case-sensitive completion.
@@ -69,7 +56,7 @@ ZSH_CUSTOM=$HOME/dotfiles/zsh-custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rvm fasd zsh-autosuggestions)
+plugins=(git fasd zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
