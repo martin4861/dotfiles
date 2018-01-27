@@ -16,4 +16,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-
+  - [sudo pip3 install thefuck, Installing thefuck]
