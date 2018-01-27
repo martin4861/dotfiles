@@ -1,7 +1,7 @@
+export TERM="xterm-256color" 
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/dotfiles/oh-my-zsh
-
-source $HOME/dotfiles/user.cfg
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -10,7 +10,6 @@ source $HOME/dotfiles/user.cfg
 
 
 ZSH_THEME="../../zsh-custom/themes/powerlevel9k/powerlevel9k"
-
 source $HOME/dotfiles/powerlevel9k.cfg
 
 
@@ -60,8 +59,7 @@ plugins=(git fasd zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
-# export MANPATH="/usr/local/man:$MANPATH"
+source $HOME/dotfiles/user.cfg
 
 source $ZSH/oh-my-zsh.sh
 
@@ -92,6 +90,3 @@ zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-export TERM="xterm-256color" 
