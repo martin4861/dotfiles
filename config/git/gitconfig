@@ -1,0 +1,8 @@
+[core]
+    excludesfile = /home/kalle/.gitignore_global
+    autocrlf = input
+[user]
+	name = martin4861
+    email = martin4861@gmx.de
+[push]
+	default = simple

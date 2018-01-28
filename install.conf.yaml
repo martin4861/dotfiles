@@ -14,6 +14,9 @@
     ~/.zshrc: ~
     ~/.config/terminator: config/terminator
 
+    # git
+    ~/.gitconfig: config/git/gitconfig
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [sudo pip3 install thefuck, Installing thefuck]
+  #- [sudo pip3 install thefuck, Installing thefuck]
