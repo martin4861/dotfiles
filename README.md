@@ -21,11 +21,12 @@ $ ln -s ~/dotfiles/.zshrc ~/dotfiles/.tmux.conf ~
 ```
 )
 
+
 ### 4. Set shell
 ```
 $ chsh -s /usr/bin/zsh
-``
-Log off and log in!`
+```
+Log off and log in
 
 
 ### 5. Install FASD for zsh
