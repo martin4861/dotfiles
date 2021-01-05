@@ -19,4 +19,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  #- [sudo pip3 install thefuck, Installing thefuck]
+  - [sudo apt-get install zsh tmux rxvt-unicode-256color, zsh]
+  - [sudo apt install thefuck, Installing thefuck]
+  - [git clone https://github.com/clvv/fasd.git ~/fasd && cd ~/fasd && sudo make install, fasd]
+  - [git clone https://github.com/gabrielelana/awesome-terminal-fonts.git ~/awesome-terminal-fonts && source ~/awesome-terminal-fonts/build.sh && source ~/awesome-terminal-fonts/install.sh, Terminal fonts]
