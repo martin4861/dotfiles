@@ -13,6 +13,6 @@ $ git submodule update --init --recursive
 $ ./setup.sh
 ```
 
-Restart X11 server
+### 3. Manually install the font for terminal/vscode etc
 
-Font: Source Code Pro for Powerline Regular, 12
+See: https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
