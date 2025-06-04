@@ -1,6 +1,4 @@
-sudo apt-get install zsh thefuck tmux
-
-git clone https://github.com/clvv/fasd.git ~/fasd && cd ~/fasd && sudo make install
+brew install fzf zoxide
 
 ln -s ~/dotfiles/oh-my-zsh ~/.oh-my-zsh
 ln -s ~/dotfiles/zshrc ~/.zshrc
