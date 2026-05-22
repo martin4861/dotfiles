@@ -1,7 +1,7 @@
 Install notes
 =========
 
-pre-req: python python-pip git
+pre-req: python3 python3-pip git
 
 ### 1. Checkout submodules
 ```
